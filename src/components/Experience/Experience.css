@@ -1,0 +1,37 @@
+.experience-bg{
+    /* background-color: #FFFDE3; */
+    background-color: #181823;
+    /* color: #562B08; */
+    color:#e5e0ff;
+    padding: 40px 0px;
+}
+.experience-tittle{
+    /* color:#562B08; */
+    /* color:#e5e0ff; */
+   color:#A6D0DD;
+}
+.align-style{
+    text-align: justify;
+    font-size: 18px;
+}
+.job-tittle{
+    font-weight: bold;
+    color:#A6D0DD;
+}
+ .btn-style{
+    color:  #FFFDE3;
+    background-color:#875126;
+    background-color: #A6D0DD;
+    width: 200px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+ }
+@media screen and (max-width:578px){
+    .experience-bg{
+        padding :40px 15px;
+    }
+}
+
+
+    

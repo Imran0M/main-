@@ -1,0 +1,60 @@
+body{
+    /* font-family: 'Tilt Neon', cursive;   */
+}
+.profile-bg{
+    padding: 60px 0px 40px 0px;
+    background-color: #181823;
+    color:#e5e0ff;
+}
+ .my-image{
+    width:220px;
+    height:300px;
+    margin-top:30px;
+    border-radius: 25px;
+ }
+ .img-name{
+    text-align: center;
+    margin-top: 10px;
+ }
+ .tittle-text{
+    text-align: center;
+    font-size: 18px;
+ }
+ .my-name{
+    font-family: 'Satisfy', cursive;
+    margin-top: 10px;
+    font-size: 30px;  
+    color:#A6D0DD;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 5s steps(20, end) ;
+ }
+ @keyframes typing {
+   from {
+     width: 0;
+   }
+   to {
+     width: 100%;
+   }
+ }
+ .bton{
+    text-align: center;
+
+ }
+ @media screen and (min-width:770px) {
+    .profile{
+        display: flex;
+        align-items: center;
+        gap: 10rem;
+        text-align: justify;
+     }
+     .tittle-text, .clicking-text{
+        font-size: 20px;
+        text-align: justify;
+     }
+ }
+ @media screen and (max-width:578px){
+    .profile-bg{
+        padding :40px 15px;
+    }
+}

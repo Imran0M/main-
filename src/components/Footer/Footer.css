@@ -1,0 +1,29 @@
+.footer-style{
+    background-color: #EBECEF;
+    color: #EBECEF;
+    display: flex;
+    justify-content: center;
+    gap:2rem;
+    padding: 10px;
+}
+.linkedin{
+    color:#0072b1;
+}
+.github{
+    color: #000000;
+}
+.email{
+    color:#FF1E00;
+}
+.footer-last{
+    display: flex;
+    justify-content: flex-end;
+}
+.copy-rights p{
+  
+    text-align: end;
+    color: #000000;
+}
+.dec{
+    text-decoration: none;
+}

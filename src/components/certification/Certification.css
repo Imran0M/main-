@@ -1,0 +1,29 @@
+.certificate-bg{
+    /* background-color: #F0EB8D; */
+    background-color: #181823;
+    /* color: #000000; */
+    /* color:#e5e0ff; */
+    color:#A6D0DD;
+    padding: 40px 0px;
+}
+
+@media screen and (min-width:768px){
+    .image{
+        height: 450px;
+    }
+}
+@media screen and (min-width:992px){
+    .image{
+        height: 590px;
+    }
+}
+@media screen and (min-width:1200px){
+    .image{
+        height: 580px;
+    }
+}
+@media screen and (max-width:578px){
+    .certificate-bg{
+        padding :40px 15px;
+    }
+}

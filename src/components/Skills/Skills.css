@@ -1,0 +1,86 @@
+.skil-bg{
+    background-color: #181823;
+    padding: 40px 0px ;
+}
+.first-line,.second-line, .third-line{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    gap:10px; 
+}
+.skills-para{
+    font-size: 18px;
+}
+ .skil{
+    width:90px;
+    height: 90px; 
+    padding: 10px;
+    background-color: #000000;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+ }  
+ .skills-para{
+   color:#E5E0FF;
+ }
+ 
+ .skills-tittle{
+    color:#A6D0DD;
+ }
+.skill>div{
+    color:#E5E0FF
+}
+.html-st{
+ color :#e34c26 ;
+}
+.css-st{
+    color:#2965f1;
+   }
+.bt-st{
+    color:#563d7c ;
+}
+.js-st{
+    color:#f0db4f;
+}
+.re-st{
+    color:#7cc5d9;
+}
+.git-st{
+    color:#F6F1F1;
+}
+.node-st{
+    color:#3c873a;
+}
+.express-st{
+    color:#E4DCCF;
+}
+.mongodb-st{
+    color:#589636;
+}
+.under-text{
+    color: #F6F1F1 ;
+}
+@media screen and (min-width:767px) {
+    .skil{
+        width: 120px;
+        height: 120px;
+    }
+}
+@media screen and (min-width:990px) {
+    .skil{
+        width: 180px;
+        height: 180px;
+    }
+}
+@media screen and (max-width:578px){
+    .skil-bg{
+        padding :40px 15px;
+    }
+}
+
+  
+
